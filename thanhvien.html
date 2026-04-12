@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành viên - Áo Dài Việt Nam</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .team-section {
+            padding: 100px 5%;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        .team-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: 0.4s;
+            text-align: center;
+        }
+        .team-card:hover {
+            transform: translateY(-15px);
+        }
+        .team-card img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+        .team-info {
+            padding: 25px 20px;
+        }
+        .team-info h3 {
+            color: #a31d24;
+            margin-bottom: 8px;
+            font-size: 1.65rem;
+        }
+        .role {
+            font-weight: 600;
+            color: #a31d24;
+            font-size: 1.05rem;
+            margin-bottom: 15px;
+        }
+        .team-info p {
+            color: #555;
+            font-size: 1.02rem;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ÁO DÀI</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Trang chủ</a></li>
+                <li><a href="lichsu.html">Lịch sử</a></li>
+                <li><a href="ynghia.html">Ý nghĩa</a></li>
+                <li><a href="nghethuat.html">Nghệ thuật chế tác</a></li>
+                <li><a href="xuhuong.html">Xu hướng hiện nay</a></li>
+                <li><a href="thanhvien.html" class="active">Thành viên</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-inner" style="position: relative; background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('anhnhom5.jpg'); background-size: cover; background-position: center; height: 650px;">
+        <h1>Đội ngũ thành viên</h1>
+    </div>
+
+    <section class="team-section">
+        <h2 style="text-align: center; color: #a31d24; font-size: 2.8rem; margin-bottom: 20px;">Các Thành Viên Của Nhóm 5</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 70px; font-size: 1.2rem;">
+            Tên và vai trò từng thành viên 
+        </p>
+
+        <div class="team-grid">
+
+            <!-- 1. Nguyễn Võ Hoài Khanh -->
+            <div class="team-card">
+                <img src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t1.15752-9/666472168_1514310953487058_4567223931790869366_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG6M6R9LoJjvNf0SJkiZ5djwf5ZnIbtWaLB_lmchu1ZoquEL7YnOyFFSum9LBrIWRNC2VeZP-vkQlRRKsCQBZ9S&_nc_ohc=qAcoF9MbKzQQ7kNvwGRZVfo&_nc_oc=Adr1O5mwCiJq6Pc5T4mqBm39dGQp5cEhSB0JdVop-rMYnnvH7271bGAgDgo3-85NRhc&_nc_zt=23&_nc_ht=scontent.fsgn19-1.fna&_nc_ss=7a3a8&oh=03_Q7cD5AGMYRlhDRyWfbgoP3iQcEE3qOX4hMJZ0c6AiJyLCr26NA&oe=6A033219" alt="ảnh cá nhân1">
+                <div class="team-info">
+                    <h3>Nguyễn Võ Hoài Khanh</h3>
+                    <p class="role">Quản trị dự án (Project Manager)</p>
+                    <p>Chịu trách nhiệm lập kế hoạch, điều phối và đảm bảo dự án hoàn thành đúng tiến độ.</p>
+                </div>
+            </div>
+
+            <!-- 2. Nguyễn Yến Nhi -->
+            <div class="team-card">
+                <img src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t39.30808-6/618083579_823001197412580_8790129088792457036_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeFH-0892ZXutg752CuaE1q3rHWjwRZB0EisdaPBFkHQSJ0LPEQz3D_QI3Em_il2_8JeWlWJ1de-LbS5KMyu2UDi&_nc_ohc=ZYvHV-Ro2GIQ7kNvwE_XcSH&_nc_oc=AdqEazaZKoHaMYEDnqp6o7x0oGmyMJ8bLMFYRurOilkI1RUmvv2T4ZaQnPPWxKiRD10&_nc_zt=23&_nc_ht=scontent.fsgn19-1.fna&_nc_gid=jBLMOkc8JOlFRbwBXu0GLg&_nc_ss=7a3a8&oh=00_Af1HLcBVCeEmCHgWCZ8paSzduwMM33tZn1xL_Qg59goRFA&oe=69E1838E" alt="ảnh cá nhân2">
+                <div class="team-info">
+                    <h3>Nguyễn Yến Nhi</h3>
+                    <p class="role">Lập trình viên & Thiết kế đồ họa</p>
+                    <p>Phụ trách lập trình web và thiết kế giao diện, đồ họa cho toàn bộ dự án.</p>
+                </div>
+            </div>
+
+            <!-- 3. Trần Thụy Cát Tường -->
+            <div class="team-card">
+                <img src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t1.15752-9/664252207_1651485259387633_6746402013562179675_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHIrSci_oq6qx-JbjkeG7wjgtnW8vgpVhKC2dby-ClWEgSA9L74knURHfJJKKchMmJs2BmLm0giOmABlCKwdkXn&_nc_ohc=xOiV2yUm8QcQ7kNvwEljRNl&_nc_oc=AdrHOur1jyB9rLHa2Vh3PSsyWPSR8NLANkABJbjIqoqj-pN-pEchZRP1UyW1N9W6_oc&_nc_zt=23&_nc_ht=scontent.fsgn19-1.fna&_nc_ss=7a3a8&oh=03_Q7cD5AGMI7xZb-nl5nM0QrYHimjjjmoPLAQ-WBkgzNLlWOXTfA&oe=6A03050D" alt="ảnh cá nhân3">
+                <div class="team-info">
+                    <h3>Trần Thụy Cát Tường</h3>
+                    <p class="role">Quản trị hệ thống & AI Specialist</p>
+                    <p>Quản lý hệ thống backend và tích hợp trí tuệ nhân tạo vào dự án.</p>
+                </div>
+            </div>
+
+            <!-- 4. Mã Kim Thúy -->
+            <div class="team-card">
+                <img src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t1.15752-9/663241994_938193315611141_1125275363987368356_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHvEDbRwZx1wtpJBgasehswYwGLAtpgqBxjAYsC2mCoHIh8XZE6I1p0fOrOYexf1W2_RjSkQAeSvmGftlZaG3Hx&_nc_ohc=nLuQLGVZxtIQ7kNvwEVBYvh&_nc_oc=AdoBGTPqwqwVwgQtj53WbCZQPGXSxHDM7VX2ha8l3UnbCAjknuUMBpBq8srVHuPfSik&_nc_zt=23&_nc_ht=scontent.fsgn19-1.fna&_nc_ss=7a3a8&oh=03_Q7cD5AG5Xus1UiQIgtCC14SBiWd7QwacDsKbDJs2eA6GPXh0mg&oe=6A03253D" alt="ảnh cá nhân4">
+                <div class="team-info">
+                    <h3>Mã Kim Thúy</h3>
+                    <p class="role">Phụ Trách Nội Dung & Hình Ảnh</p>
+                    <p>Nội dung trang web: lời mở đầu, ý nghĩa và xu hướng</p>
+                </div>
+            </div>
+
+            <!-- 5. Trần Bảo Ngân -->
+            <div class="team-card">
+                <img src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t1.15752-9/667814876_815590944439120_5529700833071704312_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEnUOVG4XIksL1Zc3wND3vi35t-tHp5fobfm360enl-hmtn7tsxp9GLyl_KVxuC0GElxYnTioUWWSak5wwCB3Kf&_nc_ohc=NiomHqJlZWEQ7kNvwG6LSDe&_nc_oc=AdpimiygP5ik3pygD1UalUDoKsbBLMg6oTZZ-T2mO3SDt4wx2q0Aj4XaGWtzh58qPiQ&_nc_zt=23&_nc_ht=scontent.fsgn19-1.fna&_nc_ss=7a3a8&oh=03_Q7cD5AGnHvzqouT9D1ivETPIIuYQGmsGFzxm2Fiml0RRDuauKQ&oe=6A030D5B" alt="ảnh cá nhân5">
+                <div class="team-info">
+                    <h3>Trần Bảo Ngân</h3>
+                    <p class="role">Phụ Trách Nội Dung & Hình Ảnh</p>
+                    <p>Nội dung trang web: Nghệ thuật chế tác và ý nghĩa</p>
+                 
+
+                 <p>Hình Ảnh, Video</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Về Chúng Mình</h3>
+                <p>Tôn vinh vẻ đẹp truyền thống pha lẫn hơi thở hiện đại của tà áo dài. Nơi chia sẻ những góc nhìn mới mẻ về trang phục đầy tự hào của dân tộc.</p>
+                <p><i class="fa-solid fa-location-dot"></i> Số 1, đường DN11, Khu phố 4, Phường Tân Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh<br>
+                   <i class="fa-solid fa-envelope"></i> nhom5@gmail.com</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Khám Phá</h3>
+                <ul>
+                    <li><a href="index.html" class="active">Trang chủ</a></li>
+                    <li><a href="lichsu.html" class="active">Lịch sử</a></li>
+                    <li><a href="ynghia.html">Ý nghĩa</a></li>
+                    <li><a href="nghethuat.html">Nghệ thuật chế tác</a></li>
+                    <li><a href="xuhuong.html">Xu hướng hiện nay</a></li>
+                    <li><a href="thanhvien.html">Thành viên</a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Bản Tin Mới Nhất</h3>
+                <p>Để lại email để không bỏ lỡ những thông tin hay ho nhất từ web của chúng mình nha!</p>
+                
+                <form class="newsletter-form" action="#" method="POST">
+                    <input type="email" placeholder="Nhập email của bạn..." required>
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i> Gửi</button>
+                </form>
+
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><strong>Lớp 12C7</strong> © 2026 - Được làm bởi nhóm 5</p>
+        </div>
+    </footer>
+</body>
+</html>
